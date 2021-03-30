@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Onlineticket.Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>车站在线售票系统</title>
+    <link type="text/css" href="Styles/WebSite.css" rel="Stylesheet" />
+    <link type="text/css" href="Styles/MyInfo.css" rel="Stylesheet" />
+    <link type="text/css" href="Styles/Myscreen.css" rel="Stylesheet" />
+    <link type="text/css" href="Styles/Changepwd.css" rel="Stylesheet" />
+    <script type="text/javascript">
+        window.onload = window.onresize = function () {
+            if (document.getElementById("left").offsetHeight < document.getElementById("right").offsetHeight) {
+                document.getElementById("left").style.height = document.getElementById("right").offsetHeight + "px";
+            }
+            else {
+                document.getElementById("right").style.height = document.getElementById("left").offsetHeight + "px";
+            }
+        }
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="page">
+        <div id="top">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="menu">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="left">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+            </asp:ContentPlaceHolder></div>
+        <div id="right">
+            <div class="box-right">
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                </asp:SiteMapPath>
+                <hr />
+             </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="foot">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder5" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

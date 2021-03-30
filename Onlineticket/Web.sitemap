@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="ticketDefault.aspx" title="首页"  description="">
+        <siteMapNode url="MyOrder.aspx" title="我的订单"  description="" />
+        <siteMapNode url="MyInfo.aspx" title="我的信息"  description="" />
+      <siteMapNode url="ChangePassword.aspx" title="修改密码"  description="" />
+        <siteMapNode url="ticketDetail.aspx" title="车票预订"  description="" />
+        <siteMapNode url="Register.aspx" title="注册页面"  description="" />
+    </siteMapNode>
+</siteMap>

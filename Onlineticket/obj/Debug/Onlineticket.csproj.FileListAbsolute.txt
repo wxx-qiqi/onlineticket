@@ -1,0 +1,4 @@
+F:\毕业设计\车站售票系统\Onlineticket\Onlineticket\bin\Onlineticket.dll
+F:\毕业设计\车站售票系统\Onlineticket\Onlineticket\bin\Onlineticket.pdb
+F:\毕业设计\车站售票系统\Onlineticket\Onlineticket\obj\Debug\Onlineticket.dll
+F:\毕业设计\车站售票系统\Onlineticket\Onlineticket\obj\Debug\Onlineticket.pdb
